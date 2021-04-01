@@ -1,0 +1,20 @@
+.card {
+  border: 2px solid var(--color-secondary);
+  border-radius: var(--border-radius);
+  padding: 15px;
+}
+
+.card h2 {
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+.card p {
+  color: var(--color-shape);
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.card a {
+  color: var(--color-shape);
+}

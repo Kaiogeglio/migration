@@ -1,0 +1,32 @@
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.containerLinks {
+  margin-top: 20px;
+}
+
+.containerLinks a {
+  color: var(--color-white);
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.containerLinks a:hover {
+  border-bottom: 2px solid var(--color-secondary);
+  color: var(--color-secondary);
+}
+
+.containerLinks a + a {
+  margin-left: 20px;
+}
+
+@media (max-width: 660px) {
+  .header {
+    flex-direction: column;
+  }
+}

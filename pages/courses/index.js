@@ -33,6 +33,8 @@ export async function getStaticProps () {
 
   let response = await api.get("/courses")
 
+  console.log(response)
+
   return {
     props: {
       courses: response.data.courses.docs
